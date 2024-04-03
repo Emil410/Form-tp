@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../js/app.js"></script>
+</head>
+
+<body>
+    <form class="form_main">
+        <div class="head_form">
+            <h1>Last Payroll</h1>
+            <i class="fa-solid fa-x"></i>
+        </div>
+        <div class="gross_pay">
+            <h2>Gross Pay</h2>
+            </br>
+            <div class="ds_flx">
+                <span class="text_gray">Amount:</span>
+                <span class="text_black">$1,000.00</span>
+            </div>
+            <div class="ds_flx top">
+                <span class="text_gray">Date:</span>
+                <span class="text_black">Sep 22, 2023 - Oct 22, 2023</span>
+            </div>
+            <div class="ds_flx top">
+                <span class="text_black">Reqular <i class="fa-solid fa-chevron-down"></i></span>
+                <span class="text_black">85.0% of Gross</span>
+            </div>
+            <div class="ds_flx top">
+                <span class="text_black">Overtime <i class="fa-solid fa-chevron-down"></i></span>
+                <span class="text_black">15.0% of Gross</span>
+            </div>
+        </div>
+        <div class="gross_pay">
+            <div class="ds_flx">
+                <h2>Taxes & Deducations</h2>
+                <span class="text_gray tp">21.0% of Gross Pay</span>
+            </div>
+            </br>
+            <div class="ds_flx">
+                <span class="text_gray">Amount:</span>
+                <span class="text_black">$210.00</span>
+            </div>
+            <div class="ds_flx top">
+                <span class="text_gray">Date:</span>
+                <span class="text_black">Sep 22, 2023 - Oct 22, 2023</span>
+            </div>
+            <div class="ds_flx top">
+                <span class="text_black">Statutory Deducations <i class="fa-solid fa-chevron-up"></i></span>
+                <span class="text_black">85.0% of Gross</span>
+            </div>
+            <div id="deductions">
+                <div class="ds_flx">
+                    <span class="text_gray">Canada Pension Plan (CPP):</span>
+                    <span class="text_black">$123.50</span>
+                </div>
+                <div class="ds_flx top">
+                    <span class="text_gray">Employment Insurance (EI):</span>
+                    <span class="text_black">$21.50</span>
+                </div>
+                <div class="ds_flx top">
+                    <span class="text_gray">Federal Income Tax (FIT):</span>
+                    <span class="text_black">$53.00</span>
+                </div>
+                <div class="ds_flx top">
+                    <span class="text_gray">Province Income Tax (PIT):</span>
+                    <span class="text_black">$12.00</span>
+                </div>
+            </div>
+        </div>
+        <div class="gross_pay">
+            <div class="ds_flx">
+                <h2>Net Pay</h2>
+                <span class="text_gray">79.0% of Gross Pay</span>
+            </div>
+            </br>
+            <div class="ds_flx">
+                <span class="text_gray">Amount:</span>
+                <span class="text_black">$790.00</span>
+            </div>
+            <div class="ds_flx top">
+                <span class="text_gray">Date:</span>
+                <span class="text_black">Sep 22, 2023 - Oct 22, 2023</span>
+            </div>
+            <div class="footer_div mrgn">
+                <button class="cancel_btn blue_btn">Cancel</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

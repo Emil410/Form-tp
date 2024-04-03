@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+#buttons_div {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button_path {
+    width: 120px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(0, 140, 255);
+}
+
+body {
+    background-color: rgb(182, 182, 182);
+}
+
+.form_main {
+    width: 550px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.head_form {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 20px;
+}
+
+.head_form h1 {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.head_form i {
+    margin-top: 10px;
+    color: rgb(129, 129, 129);
+    cursor: pointer;
+}
+
+#time_available {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#time_available h2 {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+#time_available span {
+    color: rgb(129, 129, 129);
+    font-weight: 400;
+}
+
+#inputs_div {
+    padding: 0px 20px 20px 20px;
+}
+
+#inputs_div span {
+    color: rgba(129, 129, 129, 0.781);
+}
+
+.label_form {
+    display: inline-block;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+
+.dates_hours {
+    width: 248px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 7px;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+#approval_inp {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 7px;
+    padding: 10px;
+}
+
+#textarea_form {
+    width: 100%;
+    height: 90px;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 7px;
+    padding: 10px;
+}
+
+#info_form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_div {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.cancel_btn {
+    width: 75px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#request_btn {
+    width: 150px;
+    cursor: pointer;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    font-weight: 500;
+}
+
+.blue_btn {
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+
+.gross_pay {
+    padding: 20px;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.ds_flx {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_gray {
+    color: rgba(128, 128, 128, 0.87);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.text_black {
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+
+.text_black i {
+    font-size: 11px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.tp {
+    margin-top: 6px;
+}
+
+#deductions {
+    background-color: rgb(248, 248, 248);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 1px;
+}
+
+.mrgn {
+    padding: 0;
+    margin-top: 35px;
+}

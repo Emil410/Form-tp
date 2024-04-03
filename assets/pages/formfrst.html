@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../js/app.js"></script>
+</head>
+
+<body>
+    <form class="form_main">
+        <div class="head_form">
+            <h1>Paid Sick Leaves</h1>
+            <i class="fa-solid fa-x"></i>
+        </div>
+        <div id="req_days">
+            <div id="time_available">
+                <h2>24 hours availabel</h2>
+                <span>Request Day Balance: 8 h</span>
+            </div>
+            <div id="inputs_div">
+                <label class="label_form">Dates</label>
+                </br>
+                <input type="date" class="dates_hours" placeholder="From">
+                <span>-</span>
+                <input type="date" class="dates_hours" placeholder="To">
+                <label class="label_form top">Hours</label>
+                </br>
+                <input type="number" class="dates_hours" placeholder="From">
+                <span>-</span>
+                <input type="number" class="dates_hours" placeholder="To">
+                <label class="label_form top">Approval Request Recipent</label>
+                </br>
+                <input type="text" id="approval_inp">
+                <div id="info_form">
+                    <label class="label_form top">Additional Information</label>
+                    <span class="top">Optional</span>
+                </div>
+                <textarea name="" id="textarea_form" placeholder="Add Information here"></textarea>
+            </div>
+            <div class="footer_div">
+                <button class="cancel_btn">Cancel</button>
+                <button id="request_btn">Request Sick Days</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
